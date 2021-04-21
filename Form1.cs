@@ -19,9 +19,7 @@ namespace WinFormsApp1
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double a = Convert.ToDouble(textBox1.Text); // преобр. строку в число 
-            double z = a * a;
-            textBox2.Text = Convert.ToString(z); // преобр. число в строку
+            
 
         }
 
@@ -76,6 +74,13 @@ namespace WinFormsApp1
         private void button5_Click_1(object sender, EventArgs e)
         {
 
+        }
+
+        private void button5_Click_2(object sender, EventArgs e)
+        {
+            double a = Convert.ToDouble(textBox3.Text); // преобр. строку в число 
+            double z = a * a;
+            textBox5.Text = Convert.ToString(z); // преобр. число в строку
         }
     }
 }
